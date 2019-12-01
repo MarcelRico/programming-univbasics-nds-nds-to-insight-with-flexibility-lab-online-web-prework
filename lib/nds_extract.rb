@@ -76,12 +76,10 @@ def movies_with_directors_set(source)
   results_arr = []
 
   source.length.times do |outer_idx|
-    
-  
-    
-    
-    
-    
+    movies = source[outer_idx][:movies]
+    movies.length.times do |inner_idx|
+      
+    end
   end
 end
 
