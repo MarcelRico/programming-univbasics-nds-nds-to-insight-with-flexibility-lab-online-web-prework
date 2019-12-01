@@ -83,7 +83,7 @@ def movies_with_directors_set(source)
       results_arr << movies[movie]
     end
   end
-  
+  results_arr
 end
 
 # ----------------    End of Your Code Region --------------------
