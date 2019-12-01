@@ -80,7 +80,7 @@ def movies_with_directors_set(source)
     director_name = source[outer_idx][:name]
     movies.length.times do |inner_idx|
       movie = movies[inner_idx]
-      results_arr << [movies_with_director_name(director_name,movie)]
+      results_arr << [movie_with_director_name(director_name,movie)]
     end
   end
   puts results_arr
