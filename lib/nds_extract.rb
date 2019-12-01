@@ -74,7 +74,7 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   
   source.length.times do |outer_idx|
-    pp source[idx]
+    puts source[idx]
   end
   
 end
