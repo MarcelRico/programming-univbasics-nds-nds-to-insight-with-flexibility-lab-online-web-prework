@@ -83,6 +83,7 @@ def movies_with_directors_set(source)
       results_arr << [movie_with_director_name(director_name,movie)]
     end
   end
+  pp results_arr
   results_arr
 end
 
